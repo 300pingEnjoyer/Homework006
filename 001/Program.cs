@@ -1,6 +1,6 @@
-﻿int [] CreateRandomArray(int size, int minValue,int maxValue) //min нижнее ограничение max верхнее ограничение
+﻿int [] CreateRandomArray(int size, int minValue,int maxValue) 
 {
-    int [] newArray = new int [size]; //тип массива int, выделяем память под тип int size штук
+    int [] newArray = new int [size]; 
 
     for(int i=0;i < size; i++)
     {
